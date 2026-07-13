@@ -1,3 +1,8 @@
+"""
+This program demonstrate different ways to declare a dictionary.
+It includes empty dictionary, dictionary constructor, dictionary with list. 
+"""
+
 empty_dict = {}
 
 dict_empty_constructor = ()
