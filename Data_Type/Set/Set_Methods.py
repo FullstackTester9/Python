@@ -1,5 +1,5 @@
 """
-
+This program demonstrate implementation and working of SET methods.
 """
 
 fruit_set = {'apple', 'mango', 'dragonfruit', 'pineapple', 'indian gooseberry'}
