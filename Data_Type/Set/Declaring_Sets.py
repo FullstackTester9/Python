@@ -1,3 +1,9 @@
+"""
+This program demonstrate ways to declare set using curly brackets and set constructor.
+It also demonstrate that other iterable data structure are converted into a set.
+After conversion duplicate elements are removed.
+"""
+
 # Declaring a set with comma separated values in curly brackets.
 set_num = {1, 2, 3, 4, 5}
 
