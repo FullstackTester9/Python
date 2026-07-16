@@ -1,5 +1,7 @@
 """
-
+This program demonstrate working of comparison operators.
+Comparison operators are:
+==, !=, >, <, >=, <=
 """
 
 # '==' Equality operator.
