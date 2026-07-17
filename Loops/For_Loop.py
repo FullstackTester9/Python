@@ -1,6 +1,7 @@
 """
 This program demonstrate use and working of for loop.
-It includes use of range() function, extracting letters from string.
+It includes use of range() function, extracting letters from string,
+use of continue and break.
 """
 # Print numbers upto 5.
 # In range() only stop is mentioned.
@@ -49,3 +50,23 @@ print(f"Table of {table} is:")
 for i in range(1, 11):
     result = table * i
     print(f"{table} * {i} = {result}")
+
+# Print numbers using 'continue'.
+# Skips the loop when number is divisible by 3.
+
+print("Print numbers using 'continue'.")
+for i in range(10):
+    if i % 3 == 0:
+        continue # skips loop and move to next number
+    print(i, end=' ')
+print(end='\n\n')
+
+# Print numbers till it satisfies condition to brak the loop.
+# Kills\Exits\Stops the loop when number is divisible by 3.
+
+print("Print numbers till it satisfies condition to brak the loop.")
+for i in range(1, 10):
+    if i % 3 == 0:
+        break # kills the loop or exit the loop
+    print(i, end=' ')
+print(end='\n\n')
