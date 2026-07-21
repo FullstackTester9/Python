@@ -1,5 +1,8 @@
 """
-
+This program demonstrate working of  class and object.
+It includes, a simple class, class with function, class with 'pass' keyword,
+class with constructor, updating class attribute using class and objects,
+deleting an objects.
 """
 
 # Declaring a class
