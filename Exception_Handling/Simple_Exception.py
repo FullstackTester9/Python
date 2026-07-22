@@ -1,5 +1,8 @@
 """
-
+This program demonstrate working of a class that raises exception and a class
+that avoids the exception.
+Class "DemoException" raises exception, and a class AvoidException avoids exception, 
+but can raise other exception.
 """
 
 class DemoException:
